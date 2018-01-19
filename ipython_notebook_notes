@@ -1,0 +1,78 @@
+Ipython notebook guide summary
+
+I summarize some of the useful features of .ipynb files.
+
+The guide retrieved from
+https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
+
+
+Command+Shift+P "open help search window, very useful"
+M markdown
+Y code
+
+A insert above
+B insert below
+
+DD del
+
+Shift + 上/下 select multiple cells
+Shift + M merge multiple cells
+
+# Display multiple interactive objects in one shell
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+
+# quick help ?
+?print()
+
+# HELP includes online docs for numpy/scipy/pandas...
+
+# run local files
+%run ./program.py
+%run ./note.ipynb
+
+# active matplotlib
+%matplotlib inline
+
+# provide interactivity
+%matplotlib notebook
+
+# make plot prettier
+import seaborn
+
+######## Ipython majic commands #########
+http://ipython.readthedocs.io/en/stable/interactive/magics.html
+
+%env	# set env variable
+%run	# run codes from local
+%load	# load codes from local
+%who 	# list out all type(str) variables
+%%time	# tell you the run time of the cell
+%timeit	# run 100,000 times and tell you the mean run time of cell
+%prun	# tell you the run time, times in a function
+;		# suppress the result (no output)
+
+# !run shell commands
+!pip3 list | egrep pandas
+
+# run code from a different kernel (Fucking cool)
+%%perl
+%%python2
+%%python3
+%%HTML
+
+%%bash
+for i in {i..5}
+do
+	echo "i is $i"
+done
+
+# more about run multi-kernels, please see the reference webpage
+
+
+# Multicursor (Fucking cool)
+ALT + (select the columns)
+
+
+
+
