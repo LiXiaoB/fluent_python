@@ -1,6 +1,6 @@
 # Fluent Python
 
-![shoot_it]()
+![shoot_it](https://github.com/LiXiaoB/fluent_python/blob/master/img/shoot_it.jpeg)
 
 #### These are my study notes of Python 3 on the purpose of future review. The note mixes up with English & Chinese.
 
