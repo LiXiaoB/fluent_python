@@ -6,7 +6,7 @@ These are my study notes of Python 3 on the purpose of future review. The note m
 
 ## Main Parts
 - (90%) Part I follows the *[Liao's Python tutorial](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)* (in Chinese) and *[Python 3.64 Doc Tutorial](https://docs.python.org/3/tutorial/index.html)*
-- Part II follows *[Luciano Ramalho's Fluent Python](http://shop.oreilly.com/product/0636920032519.do)* and *_Python Cookbook, 3rd Edition_*.
+- Part II follows *[Luciano Ramalho's Fluent Python](http://shop.oreilly.com/product/0636920032519.do)* and *[Python Cookbook, 3rd Edition](http://shop.oreilly.com/product/0636920027072.do)*
 
 ## Supplementary Parts
 - (100%)Useful Ipython notebook features
