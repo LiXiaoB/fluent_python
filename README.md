@@ -3,7 +3,9 @@
 These are my review notes of Python 3. The note mixes up with English & Chinese. (Not finished yet)
 
 Reference:
-*[Luciano Ramalho's Fluent Python](http://shop.oreilly.com/product/0636920032519.do)* 
+
+*[Fluent Python by Luciano Ramalho](http://shop.oreilly.com/product/0636920032519.do)*
+
 *[Python Cookbook, 3rd Edition](http://shop.oreilly.com/product/0636920027072.do)*
 
 #### "Here’s the plan: when someone uses a feature you don’t understand, simply ~~shoot them~~."           - Tim Peters
